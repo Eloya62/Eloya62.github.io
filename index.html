@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <header>
+        <div class="profile">
+            <img class="profile-image" src="images/photo_profil.jpeg" width="100" height="auto" alt="Photo de profil">
+            <h1>MIQUEU Eloya</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>A propos</h2>
+            <p>Bienvenue sur mon portfolio. Vous pourrez y découvrir mes projets dans le cadre de mon BUT informatique ainsi que différents projets menés précédemment et en parallèle de mes études. J'ai découvert le domaine de l'informatique en 4ème en partie grâce à un stage organisé par Epita, j'ai ensuite approfondie cet intérêt au lycée. Aujourd'hui je souhaite me spécialiser dans la programmation robotique, un domaine qui me passionne. En dehors de ça j'aime également le maquettisme et le sport qui me permettent de développer ma créativité et mon esprit d'équipe.</p>
+        </section>
+        <section id="projects">
+            <h2>Projets</h2>
+            <div class="project-grid">
+                <a class="interactive card project-grid-item" href="appliBuvette.html">
+                    <img class="project-image" src="images/appli_buvette.jpg" alt="Application caisse buvette évenementiel">
+                </a>
+                <a class="interactive card project-grid-item" href="lowatem.html">
+                    <img class="project-image" src="images/lowatem.png" alt="Lowatem">
+                </a>
+                <a class="interactive card project-grid-item" href="mainRobotique.html">
+                    <img class="project-image" src="images/mainDecoupeDoigt.jpg" alt="Main Robotique">
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-card card">
+                <h2>Contact</h2>
+                <form class="contact-form">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <p>eloya.miqueu@etu.u-bordeaux.fr</p>
+    <p>Tel : 07.69.87.53.90</p>
+    <p><a href="https://fr.linkedin.com/in/eloya-miqueu-3956b9250/en">LinkedIn</a></p>
+        <p><a href="https://github.com/Eloya62">GitHub</a></p>
+
+</footer>
+</body>
+
+</html>
